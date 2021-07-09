@@ -25,7 +25,7 @@ Examples:
 
 > hdfs://data/in
 
-> s3://your-bucket-name/path/to/key
+> s3://your-bucket-name/path
 
 **OUTPUT_PATH**
 
@@ -36,7 +36,7 @@ Examples:
 
 >hdfs://data/out
 
->s3://your-bucket-name/path/to/key
+>s3://your-bucket-name/path
 
 **ORDER_COLUMN**
 

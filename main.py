@@ -9,7 +9,7 @@
 # 				   and save in parquet format partitioned by columns.
 #
 # 	VERSION			AUTHOR						DATE
-# 	1.0				Alex Zava					2021-07-02
+# 	1.0				Alex Zava					2021-07-05
 #
 ################################################################################
 """
@@ -92,7 +92,6 @@ def pipeline(input_path,output_path,order_column,partition_columns):
 	print("Saving data...".format(output_path))
 	save_data(df,output_path,partition_columns,order_column)
 	
-	df.show()
 	return 0
 	
 if __name__ == "__main__":
